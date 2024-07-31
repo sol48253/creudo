@@ -1,16 +1,39 @@
-## Hi there 👋
+@@ -3,6 +3,7 @@ corpo {
+    fundo : preto;
+    margem :  0 px ;
+    família de fontes :  "Chakra Petch" , sem serifa;
+    margem inferior :  100 px ;
+}
 
-<!--
-**creudo/creudo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+cabeçalho {
+@@ -32,10 +33,6 @@ p {
+    tamanho da fonte :  20 px ;
+}
 
-Here are some ideas to get you started:
+imagem {
+    altura :  200 px ;
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+. categoria-vídeos {
+    exibição : flex;
+    estouro-x : automático;
+@@ -45,4 +42,19 @@ imagem {
+. categoria {
+    preenchimento-esquerdo :  20 px ;
+    preenchimento-direito :  20 px ;
+    margem superior :  50 px ;
+}
+
+. categoria-vídeos  img {
+    opacidade :  0,5 ;
+    altura :  200 px ;
+}
+
+. categoria-videos  img : hover {
+    opacidade :  1,0 ;
+    borda :  3 px verde sólido;
+}
+
+. categoria  h2 {
+    cor :  rgb ( 42 ,  122 ,  228 );
+}
